@@ -2,7 +2,15 @@
 <resources>
 
     <string name="app_name">Get Good</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="enter_text">Enter your Goal!</string>
     <string name="action_settings">Settings</string>
-
+    <string-array name="goalchoice">
+        <item>School</item>
+        <item>Fitness</item>
+        <item>Work</item>
+        <item>General</item>
+    </string-array>
+    <string name="goal_card">Here is your goal</string>
+    <string name="goal_enter">Enter Goal</string>
+    <string name="goal_edit">Type your goal</string>
 </resources>
