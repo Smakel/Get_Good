@@ -10,15 +10,6 @@
     tools:context=".MainActivity"
     android:id="@+id/mainscreen">
 
-    <Spinner
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/goal_spinner"
-        android:layout_below="@+id/goal_edit"
-        android:layout_alignEnd="@+id/goal_edit"
-        android:spinnerMode="dropdown"
-        android:entries="@array/goalchoice"
-        />
 
     <EditText
         android:layout_width="wrap_content"
@@ -32,6 +23,7 @@
         android:inputType="text"
         android:imeActionLabel="@string/goal_enter"
 
+
         />
 
     <Button
@@ -41,7 +33,22 @@
         android:id="@+id/goal_button"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+
         />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/goal_edit"
+        android:paddingTop="15dp"
+        android:id="@+id/g_list"
+
+
+    />
+
+
 
 
 </RelativeLayout>
